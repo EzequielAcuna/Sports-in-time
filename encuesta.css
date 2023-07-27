@@ -1,0 +1,31 @@
+h1{
+    font-size: 70px;
+    font-family: monospace;
+    text-align: center;
+}
+body{
+    background-color: #FEFF86;
+}
+p{
+    text-align: center;
+    color: solid black;
+    font-size: 25px;
+}
+.Client{
+    border: 1px solid black;
+    margin: 4%;
+    padding: 2%;
+}
+.Client p{
+    text-decoration: underline;
+    font-weight: bold;
+}
+.ClientText{
+    border: 1px solid black;
+    margin: 4%;
+    padding: 2%;
+}
+.ClientText p{
+    text-decoration: underline;
+    font-weight: bold;
+}

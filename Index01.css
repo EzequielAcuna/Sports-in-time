@@ -1,0 +1,94 @@
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 100px;
+    text-align: center;
+}
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    text-align: center;
+    text-decoration: underline;
+}
+.Cabecera p{
+    text-align: center;
+    font-size: 20px;
+}
+.Cabecera span{
+    font-weight: bold;
+}
+.Main{
+    background-color: #E57C23;
+    width: 100%;
+    padding: 0.5px;
+    position: sticky;
+    top: 0%;
+}
+.Main ul{
+    list-style: none;
+}
+.Main ul li{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    list-style: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+}
+.Main ul li a:hover{
+    background-color: white;
+}
+.Comp{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.Comp figcaption{
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+.Padre{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between; 
+}
+.Content{
+    width: 400px;
+    height: 620px;
+    background-color: white;
+    display: inline-block;
+    position: relative;
+    margin-top: 0 auto;
+}
+.Content img{
+    margin: 1%;
+    position: absolute;
+    width: 250px;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+}
+.Content p{
+    color: rgb(12, 12, 12);
+    text-align: center;
+    font-size: 17px;
+    margin: 1%;
+}
+.Content p span{
+    font-weight: bold;
+}
+.Next{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Reco p{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.Pie p{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
